@@ -4,16 +4,22 @@
 	box-sizing: border-box;
 }
 
-body {
-	/* font-family: "Inter", sans-serif; */
-	font-family: "Orbitron", sans-serif;
-}
-
 #root {
 	max-width: 1280px;
 	margin: 0 auto;
 	padding: 2rem;
 	text-align: center;
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 1em;
+	width: 30vw;
+	position: fixed;
+	z-index: 1;
+	top: 0;
 }
 
 .logo {
